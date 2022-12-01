@@ -3,5 +3,5 @@ from memo import views
 
 urlpatterns = [
     path('user/', views.CustomUser_list),
-    # path('snippets/<int:pk>/', views.snippet_detail),
+    path('user/<int:pk>/', views.CustomUser_detail),
 ]
