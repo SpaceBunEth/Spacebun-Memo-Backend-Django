@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = "memo.CustomUser"
+# AUTH_USER_MODEL = "memo.CustomUser"
 
 CSRF_TRUSTED_ORIGINS = ['https://*.gitpod.io']
 CORS_ALLOWED_ORIGIN_REGEXES = [
@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
-    'memo'
+    'users',
 ]
 
 REST_FRAMEWORK = {
